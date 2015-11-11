@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!-- Do not remove this test for UTF-8: if “Ω” doesn’t appear as greek uppercase omega letter enclosed in quotation marks, you should use an editor that supports UTF-8, not this one. -->
+<package xmlns="http://schemas.microsoft.com/packaging/2015/06/nuspec.xsd">
+  <metadata>
+    <id>turbo</id>
+    <title>Turbo</title>
+    <version>1.0.0.20151111</version>
+    <authors>Turbo.net</authors>
+    <owners>Mateusz Polnik</owners>
+    <summary>Dramatically simplify and make more reliable all phases of the software creation and deployment lifecycle.</summary>
+    <description>Turbo allows you to package applications and their dependencies into a lightweight, isolated virtual environment called a "container." Containerized applications can then be run on any Windows machine that has Turbo installed, no matter the underlying infrastructure. This eliminates installs, conflicts, breaks, and missing dependencies.
+Turbo containers are built on top of the Spoon Virtual Machine, an application virtualization engine that provides lightweight namespace isolation of core operating system objects such as the filesystem, registry, process, networking, and threading subsystems.
+	</description>
+    <projectUrl>https://turbo.net/</projectUrl>
+    <packageSourceUrl>https://github.com/turboapps/chocolatey</packageSourceUrl>
+    <docsUrl>https://turbo.net/docs</docsUrl>
+    <bugTrackerUrl>https://support.turbo.net/</bugTrackerUrl>
+    <tags>turbo containers software virtualization</tags>
+    <copyright>Turbo.net</copyright>
+    <licenseUrl>https://turbo.net/terms/terms</licenseUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <iconUrl>https://turbo.net/io/users/turbo/upload/Turbo.png</iconUrl>
+    <releaseNotes>This package uses turbo-plugin.exe and installs the latest version of Turbo.Net Plugin, regardless of the version specified in the package.</releaseNotes>
+  </metadata>
+  <files>
+    <file src="tools\**" target="tools" />
+  </files>
+</package>
