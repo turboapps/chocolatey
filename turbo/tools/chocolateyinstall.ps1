@@ -1,7 +1,7 @@
 ﻿
 $ErrorActionPreference = 'Stop';
 
-$packageName = 'turbo.net'
+$packageName = 'turbo'
 $fileType = 'exe'
 $url = 'http://start.turbo.net/install'
 
